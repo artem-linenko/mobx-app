@@ -1,0 +1,35 @@
+.app-root {
+	display: flex;
+	padding: 20px 0;
+}
+
+.buttons-sidebar-root {
+	width: 100px;
+}
+
+.buttons-sidebar-item {
+	margin-top: 20px;
+}
+
+.folders-container, .files-container {
+	position: relative;
+	width: 400px;
+	padding: 20px;
+	border-radius: 5px;
+	border: 1px solid Gainsboro;
+	box-sizing: border-box;
+	max-height: 500px;
+	overflow-y: auto;
+}
+
+.folders-root {
+	position: relative;
+	box-sizing: border-box;
+}
+
+.folders-item {
+	display: flex;
+  align-items: center;
+	margin-top: 10px;
+	width: calc(100% - 40px);
+}
